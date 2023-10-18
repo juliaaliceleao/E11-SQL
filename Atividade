@@ -1,0 +1,12 @@
+SELECT lastName FROM employees;
+SELECT firstName, lastName, jobTitle FROM employees;
+SELECT firstName, lastName FROM employees ORDER BY lastName;
+SELECT * FROM employees WHERE jobTile LIKE '%Sales rep%';
+SELECT * FROM employees WHERE jobTile LIKE '%Sales rep%' AND officeCode = 1;
+SELECT costumeName, costumeNumber FROM employees WHERE creditLimit BETWEEN 50000 AND 100000;
+SELECT * FROM employees WHERE jobTile LIKE '%VP%';
+SELECT name, jobTitle FROM employees WHERE reportsTo = NULL;
+SELECT * FROM costumers WHERE country LIKE '%França' OR country LIKE 'Estados Unidos';
+SELECT productName, productDescription FROM products;
+SELECT *employees. FROM employess, offices WHERE offices.city LIKE '%Estados Unidos%';
+SELECT *orders. FROM FROM Orders JOIN Customers
